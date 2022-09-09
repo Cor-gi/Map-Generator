@@ -1,4 +1,4 @@
-let textin = 'abcd'
+let textin = 'abcdefg'
 let textout = [...textin]
 
 const mapped = []
@@ -16,6 +16,15 @@ textout.forEach((letter => {
             break;
         case 'd':
             mapped.push(ld)
+            break;
+        case 'e':
+            mapped.push(le)
+            break;
+        case 'f':
+            mapped.push(lf)
+            break;
+        case 'g':
+            mapped.push(lg)
             break;
         
     }
