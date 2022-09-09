@@ -12,7 +12,7 @@ class Boundary {
     }
 
     draw() {
-        c.fillStyle = 'rgb(14, 106, 131)'
+        c.fillStyle = 'rgb(113, 174, 255)'
         c.fillRect(this.position.x, this.position.y, this.width, this.height)
     }
 }
